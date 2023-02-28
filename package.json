@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "nodemon server.ts",
-    "start": "node server.ts",
+    "dev": "nodemon index.ts",
+    "start": "node index.ts",
+    "start-dev": "nodemon index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
